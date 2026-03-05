@@ -23,10 +23,6 @@ builder.Services.AddCors(options =>
     });
 });
 
-// Let the platform (Render, Azure, etc.) handle the port via PORT env var
-var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
-
 var app = builder.Build();
 
 // Enable Swagger in all environments
@@ -36,5 +32,5 @@ app.UseSwaggerUI();
 app.UseCors("AllowFCTools");
 app.MapControllers();
 
-Console.WriteLine($"FC YMT API starting on port {port}...");
+Console.WriteLine("FC YMT API starting...");
 app.Run();
