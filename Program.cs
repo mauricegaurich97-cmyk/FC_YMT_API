@@ -15,6 +15,7 @@ builder.Services.AddCors(options =>
                 "https://www.fctools.dev",
                 "https://fctools.vercel.app",
                 "https://fc-tools.netlify.app",
+                "https://fc-ymt-api.onrender.com",
                 "http://localhost:3000"
               )
               .AllowAnyMethod()
