@@ -1,0 +1,25 @@
+# Build output
+bin/
+obj/
+
+# Old publish folders (not needed, publish-linux is the one for Render)
+publish/
+publish-selfcontained/
+publish-x86/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Zip archives
+*.zip
+
+# Debug symbols (optional - remove these lines if you want debugging on server)
+*.pdb

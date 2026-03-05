@@ -1,0 +1,15 @@
+**/bin/
+**/obj/
+**/publish/
+**/publish-selfcontained/
+**/publish-x86/
+**/.vs/
+**/.vscode/
+**/node_modules/
+**/*.user
+**/*.suo
+**/Thumbs.db
+**/desktop.ini
+**/.git/
+**/Debug/
+**/Release/
